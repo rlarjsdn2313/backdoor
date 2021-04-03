@@ -4,6 +4,12 @@ package main
 
 import "fmt"
 
+func print(str String)
+
 func main() {
-	fmt.Println("Hello, goorm!")
+	print("hello")
+}
+
+func print(str String) {
+	fmt.Println(str)
 }
